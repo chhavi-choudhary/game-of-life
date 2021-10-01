@@ -23,7 +23,7 @@ function App() {
     <div className="App">
      <h1>Conway's Game Of Life !!</h1>
     <Grid gridStr={initialGrid()}/>
-    <h2>Generations:{generation}</h2>
+   <button className="gen">Generations:{generation}</button>
     </div>
     
   );
