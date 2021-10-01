@@ -10,3 +10,26 @@
   background-color: rgb(180, 175, 175);
   border: .1rem solid;
 }
+.startBtn{
+  width: 7rem;
+  height: 2.5rem;
+  border: 2px solid black;
+  margin-bottom: .3cm;
+}
+.gen{
+  width: 7rem;
+  height: 2.5rem;
+  border: 2px solid black;
+  margin-top: .3cm;
+}
+.reset{
+  width: 7rem;
+  height: 2.5rem;
+  border: 2px solid black;
+  margin-bottom: .3cm;
+}
+
+.structure{
+  margin-left: 35%;
+ 
+}
