@@ -17,14 +17,14 @@ const handleOnStart=(()=>{
     setTimeout(start, 1000);
 },[]);
 
-//neighbours.forEach(([a, b])=>{
-    //let newI=i+a;
-    //let newJ=j+b;
-//})
-//const neighbours=[[0,1],[0,-1],[1,1],[1,-1],[-1,1],[-1,-1],[1,0][-1,0]];
-//if(neighbours<2 || neighbours>3){
-    //gridCopy[i][k]=false;
-//}
+neighbours.forEach(([a, b])=>{
+    let newI=i+a;
+    let newJ=j+b;
+})
+const neighbours=[[0,1],[0,-1],[1,1],[1,-1],[-1,1],[-1,-1],[1,0][-1,0]];
+if(neighbours<2 || neighbours>3){
+    gridCopy[i][k]=false;
+}
 
     
 
